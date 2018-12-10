@@ -4,22 +4,26 @@ Compiler hw2
 
 Use Ubuntu
 
-編譯指令
+1.Ubuntu install bison & flex
 
-1. cd 至 檔案所在資料夾
+  sudo apt-get install flex bison
 
-2. yacc -d s1051507_hw2.y
+2.編譯指令
 
-3. lex s1051507_hw2.l
+  1. cd 至 檔案所在資料夾
 
-4. gcc lex.yy.c y.tab.c -ll 產生 a.out ( a.exe )
+  2. yacc -d s1051507_hw2.y
 
-執行
+  3. lex s1051507_hw2.l
 
-./a.out
+  4. gcc lex.yy.c y.tab.c -ll 產生 a.out ( a.exe )
+
+3.執行
+
+  ./a.out
 
 
-測資
+4.測資
 
   1.begin east east north west south
 
@@ -29,7 +33,7 @@ Use Ubuntu
 
   4.begin southern
   
-結果
+5.結果
 
   1. x:1 y:0
   
