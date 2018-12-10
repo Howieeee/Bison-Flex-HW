@@ -10,7 +10,7 @@ Use Ubuntu
 
 2. yacc -d s1051507_hw2.y
 
-3. lex s1051507_hw.l
+3. lex s1051507_hw2.l
 
 4. gcc lex.yy.c y.tab.c -ll 產生 a.out ( a.exe )
 
@@ -28,3 +28,14 @@ Use Ubuntu
   3.begin
 
   4.begin southern
+  
+結果
+
+  1. x:1 y:0
+  
+  2. x:-2 y:-3
+  
+  3.x:0 y:0
+  
+  4.Error!
+  
